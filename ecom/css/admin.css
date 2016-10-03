@@ -1,0 +1,39 @@
+.body{
+	
+	background-color: skyblue;
+	color:;
+}
+
+
+
+.table  tr{
+color:blue;
+text-align: center;
+font-weight: bold;
+
+}
+
+.table input{
+
+font-weight: bold;
+color:blue;
+}
+
+.container-fluid{
+
+	margin-top:20px;
+	color:skyblue;
+
+
+}
+ 
+ 
+
+
+   @media only screen and (max-width : 768px){ 
+
+.table{
+
+  
+
+}

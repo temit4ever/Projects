@@ -1,0 +1,335 @@
+
+html,
+body {
+   /* overflow-x: hidden;  Prevent scroll on narrow devices */
+}
+body {
+  padding-top: 70px;
+}
+footer {
+  padding: 0px 0;
+}
+
+/*
+ * Off Canvas
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all .25s ease-out;
+         -o-transition: all .25s ease-out;
+            transition: all .25s ease-out;
+  }
+
+  
+
+
+  .row-offcanvas-right {
+    right: 0;
+  }
+
+  .row-offcanvas-left {
+     left:0;
+
+  }
+
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -50%; /* 6 columns */
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -50%; /* 6 columns */
+    
+  }
+
+  .row-offcanvas-right.active {
+    right: 25%; 
+  }
+
+  .row-offcanvas-left.active {
+    left: 50%; /* 6 columns */
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 30;
+    width: 30%; /* Help to reduce the size of the sidebar contnet in a small medium */
+    height:100%;
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+
+  }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar-fixed-top{
+
+	color:white;
+	height: 100px;
+	padding:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+
+
+
+.navbar-fixed-top .navbar-brand #logo{
+
+	height:65px;
+	width:240px;
+	margin-top: -15px;
+	float:left;
+	margin-left:150px ;
+
+	
+
+
+}
+
+.navbar-fixed-top .navbar-brand #banner{
+
+	height:65px;
+	width:540px;
+	margin-left:0px ;
+	margin-top: -15px;
+	float:right;
+	margin-bottom: 0px;
+
+}
+
+.search{
+
+	margin-top:16px;
+
+}
+
+
+
+.navbar-fixed-top .nav1>li >a {
+
+	padding:20px;
+	font-size:20px;
+	margin-top:10px;
+	color:red;
+	font-family:  cursive;
+	margin
+
+
+}
+
+.bgc{
+
+  background-color: black;
+  
+
+
+}
+.navbar-fixed-top .nav2>li >a {
+
+	margin-top:9px;
+	color:red;
+	font-family: cursive;
+	font-size:20px;
+	
+}
+
+.topbar{
+	margin-top:80px;
+	background-color:white;
+	font-size: 25px;
+	width:100%;
+	padding:0px;
+	text-align: center;
+	color:;
+
+}
+
+.sidebar{
+	font-size:20px;
+	font-family: cursive fantasy;
+	height:146%;
+	background-color:black ;
+	text-align: center;
+	margin-bottom:0px;
+
+	
+}
+
+.main{
+
+	margin-top:0px;
+	color:skyblue;
+	padding:10px;
+	margin-bottom: 10px;
+	background-color:white;
+
+}
+
+.shopping_cart{
+
+margin-top:37px;
+background-color:skyblue;
+height:36px; width:100%;
+color:;
+position:relative;
+
+}
+
+.shopping_cart .mini{
+
+float:right;
+font-size:18px;
+padding:5px;
+color:black;
+position:static;
+}
+
+
+.footer
+{
+    text-align:center; 
+    padding:10px; 
+    background-color:skyblue;
+    margin-top:0px; 
+    width:100%;
+    color:black;
+    position:static;
+    bottom: 10px;
+    left:5px;
+}
+
+.wrapper{
+ margin-left:-5px;
+
+
+}
+
+
+/*   Mobile and tablet Navigation style*/
+   @media only screen and (max-width : 768px){ 
+
+.navbar-fixed-top .navbar-brand #logo{
+
+	height:65px;
+	width:240px;
+	margin-top: -10px;
+	float:left;
+	margin-left:70px ;
+
+
+}
+.navbar-fixed-top .navbar-brand #banner{
+
+	height:65px;
+	width:140px;
+	margin-left:0px ;
+	margin-top: -10px;
+	float:right;
+    
+
+}
+
+
+
+.main{
+
+	margin-top:-10px;
+	color:skyblue;
+	padding:10px;
+	margin-bottom: 0px;
+	background-color:white;
+	margin-left: 150px;
+	
+
+}
+
+.shopping_cart{
+
+margin-top:-67px;
+background-color:skyblue;
+height:36px; width:100%;
+color:;
+position:relative;
+margin-left: -0px;
+
+}
+
+.shopping_cart .mini{
+
+float:left;
+font-size:18px;
+padding:5px;
+color:black;
+position:static;
+margin-left:10px;
+}
+
+.topbar{
+	margin-top:-30px;
+	background-color:white;
+	font-size: 25px;
+	width:100%;
+	padding:0px;
+	text-align: center;
+	color:;
+
+}
+
+.sidebar{
+	font-size:20px;
+	font-family: cursive fantasy;
+	height:100%;
+	background-color:black ;
+	text-align: center;
+	margin-bottom:0px;
+
+	
+}
+
+.footer
+{
+    text-align:center; 
+    padding:10px; 
+    background-color:skyblue;
+    margin-top:0px; 
+    width:100%;
+    color:black;
+    position:static;
+    margin-bottom: -100px;
+    left:5px;
+}
+
+.wrapper{
+ margin-left:-5px;
+ margin-top: 100px;
+ margin-bottom: -900px;
+
+
+
+}
+
+
+}
+
+
+
+
+
+
+

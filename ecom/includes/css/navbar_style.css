@@ -1,0 +1,126 @@
+.bdy{
+    background-color: yellow;
+    font-size: 18px;
+    /* When aligning elements with position, always define margin and padding for the body*/
+    margin: 0;
+    padding: 0;
+  
+   }
+
+/** This help to give default styling to the Logo/image used in all navigation created**/
+  .navbar-brand{
+  padding:0px;
+}
+/** This help to give default styling to the Logo/image used in all navigation created**/ 
+.navbar-brand> img{
+  height:100%;
+  padding:15px;
+  width: auto;
+  
+}
+
+ 
+/** EXAMPLE 2 (larger logo) - simply adjust top bottom padding to make logo larger */
+.example2 .navbar-brand> img{ 
+ padding: 7px 15px;
+ 
+}
+
+
+
+
+/* EXAMPLE 3 (Increase Navbar Height)
+
+line height is 20px by default so add 30px top and bottom to equal the new .navbar-brand
+ (which increase the navbar height)70px height  */
+.example3 .navbar-brand {
+  height: 70px;
+}
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.example3 .navbar-toggle {
+ 
+  margin-bottom: 0px ;
+
+}
+
+/* EXAMPLE 4 - Small Narrow Logo*/
+.example4 .navbar-brand>img {
+  width: 75px;
+  padding: 7px 14px;
+}
+
+/* EXAMPLE 5 - Logo with Text*/
+.example5 .navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+ 
+.example5 .navbar-brand>img {
+ padding-top: 12px;
+ }
+}
+
+.example6 .navbar-brand{ 
+  background: url("/bootstrap/image/zala.jpg" ) 
+  center / contain no-repeat;
+  width: 500px;
+}
+
+/* EXAMPLE 6 - Background Image with hidden text*/
+
+
+.example6 .navbar-header{
+  padding:2px;
+}
+
+/* EXAMPLE 7 - Center on mobile*/
+
+
+ @media (max-width: 768px) {
+
+.div .navbar-brand>img {
+  height: 50%;
+  width: auto;
+  padding: 8px 16px; /*here we can give distance btw the logo at the top n the toggle*/
+    }
+
+}
+
+
+
+
+
+/* EXAMPLE 8 - Center with Flexbox and Text*/
+
+/*This help to centered the Logo */
+  .brand-centered  .navbar-brand  {
+  padding: 0px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+    }
+
+
+
+/*This help the logo to float to the top when view on mobile and its done by wrapping the 
+navbar-brand element which also contain the logo/image source with the media query . */
+
+
+   @media only screen and (max-width : 768px){ 
+.brand-centered  .navbar-brand>img {
+  height: 50%;
+  width: auto;
+  padding: 8px 16px; 
+    }
+}
+
+
+

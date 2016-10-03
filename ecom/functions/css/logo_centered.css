@@ -1,0 +1,116 @@
+
+/** This help to give default styling to the image used in all navigation created**/
+  .navbar-brand{
+  padding:0px;
+}
+/** This help to give default styling to the image used in all navigation created**/ 
+.navbar-brand> img{
+  height:100%;
+  padding:15px;
+  width: auto;
+
+}
+
+
+
+/* EXAMPLE 8 - Center with Flexbox and Text*/
+
+/*This help to centered the Logo */
+
+.div .navbar-brand {
+ 
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+    }
+
+
+/*This help the logo to float to the top when view on mobile and its done by wrapping the 
+navbar-brand element which also contain the logo/image source with the media query . */
+ @media (max-width: 768px) {
+.div .navbar-brand>img {
+  height: 50%;
+  width: auto;
+  padding: 8px 14px; /*here we can give distance btw the logo at the top n the toggle*/
+
+
+    }
+
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+}
+
+/* Sidebarr .php styling Start*/
+
+/***  Its impossible to apply media small size styling to some class unless we 
+first apply style to that class and then use the @media on the class ...like 
+the example below on class sidebar**/
+
+
+.sidebar {
+
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+    
+  }
+}
+
+.nav-sidebar {
+    margin-right: -21px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+  
+ 
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+.main {
+  padding: 53px;
+  
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.main h3{
+
+  margin-top:-10px;
+}
+
+
+.main .upspace{
+
+margin-top:0px; 
+margin-bottom:30px;
+
+}
+/* Sidebarr .php styling End*/
+

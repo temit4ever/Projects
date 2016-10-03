@@ -1,0 +1,145 @@
+.bdy{
+    background-color: grey;
+    font-size: 18px;
+    /* When aligning elements with position, always define margin and padding for the body*/
+    margin: 0;
+    padding: 0;
+  
+   }
+
+
+
+ .wrap .navbar-brand {
+ display: flex;
+ align-items: center;
+ height: 100px;
+ font-style: italic;
+ padding:0px;
+ font-family:  times;
+ color:purple;
+
+ 
+}
+
+ .wrap .navbar-brand h2{ /*Help to add styling to the words in h2 by spacing the words*/
+    margin-left: 120px;
+ }
+
+  .wrap .navbar-brand> img{ /*This style image in navbar brand for large scream*/
+
+      margin-right: 100px;
+      height:100%;
+      width: 260px;
+      padding-top: :12px;
+
+}
+
+
+  .wrap .flo > img{ 
+
+      height:100px;
+      width: 260px;
+      margin-right: -15px;
+      float:right;
+      padding:0px;
+
+}
+
+.wrap{
+  padding-bottom:70px;
+}
+
+
+ .submit{
+ 
+  margin-left: 240px;
+  
+}
+
+@media (max-width: 768px) {
+
+.wrap{
+  padding-bottom:90px;
+}
+
+.navbar-brand h2{
+
+  margin-right: 80px;
+
+
+}
+
+.wrap .navbar-brand>img { /*This style image in navbar brand for small scream*/
+  height: 100%;
+  width: auto;
+  padding: 1px 2px;
+  margin-left: -25px;
+
+    }
+
+  .wrap .flo > img{ 
+
+      height:100px;
+      width: auto;
+      margin-right: -15px;
+      float:right;
+      padding:1px 2px;
+
+}
+
+.wrap .navbar-brand h2{ /*Help to add styling to the words in h2*/
+    padding: 1px 2px; 
+     margin-left: 10px;
+ }
+
+   .submit{
+ 
+  margin-left: 150px;
+}
+
+.cap{
+
+  color:purple;
+  font-size:23px;
+  position:;
+}
+
+}
+
+/*Helps to add styling to entire log in form*/
+
+.gi-4x{font-size: 4em;}/*How to enlarge gylphicons*/
+
+.page-header{
+
+  padding:5px;
+}
+
+.page-header b{
+
+  font-size: 35px;
+  font-style: italic;
+  color:purple;
+}
+
+
+.container-fluid h1{
+  font-size: 65px;
+  font-style: italic;
+  color:purple;
+  margin-top: 3px;
+}
+
+
+.nav-pills a{
+  
+ 
+ color:purple;
+
+}
+
+.cap{
+
+  color:purple;
+  font-size:23px;
+}
